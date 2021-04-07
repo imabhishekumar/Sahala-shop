@@ -1,0 +1,554 @@
+*, html{
+  box-sizing: border-box;
+}
+
+body{
+  overflow-x: hidden;
+  outline: none;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  text-align: justify;
+}
+
+
+@font-face {
+  font-family: Rajdhani-Medium;
+  src: url(../font/Rajdhani/Rajdhani-Medium.ttf);
+}
+
+@font-face {
+  font-family: YatraOne-Regular;
+  src: url(../font/Yatra_One/YatraOne-Regular.ttf);
+}
+
+
+button, a{
+  outline: none;
+}
+
+.btn-outline-info:hover{
+  color: #fff;
+}
+
+/**************************/
+/**************************/
+
+/*navbar with brand name start*/
+
+.btn:focus, .form-control:focus{
+  box-shadow: none;
+}
+
+.dropdown-toggle::after {
+    margin-left: 2.255em;
+}
+
+.badge {
+    padding: .15em .45em;
+    font-size: 0.75em;
+    background-color: #673ab7; 
+}
+
+span.badge{
+  transform: translateX(-15px) translateY(-7px);
+}
+
+a.navbar-brand img{
+  width:60px;
+  height: auto;
+}
+
+.navbar-brand{
+  font-size: 1.5rem;
+}
+
+nav#topNav{
+  position: fixed;
+}
+
+
+a.navbar-brand{
+  font-family: 'Megrim', cursive;
+  color: #204b5c;
+}
+
+nav span i{
+  font-size: 1.5em;
+}
+
+/*Style for modal start*/
+
+ .modal {
+      transition: 1s;
+}
+
+.modal-backdrop {
+    z-index: 0;
+}
+
+.modal-content {
+    width: 75%;
+}   
+
+.modal-head{
+    align-items: center;
+    padding: 1rem 1rem;
+    background-color: #673ab7; 
+    border-bottom: 1px solid #dee2e6;
+    border-top-left-radius: calc(.3rem - 1px);
+    border-top-right-radius: calc(.3rem - 1px);
+} 
+
+.modal p{
+  margin-bottom: 0px;
+  line-height: 1.2;
+  font-size: 14px;
+}
+
+.modal1 button{
+  padding: 0px;
+  background-color: transparent;
+  border:none;
+}
+
+.modal-footer {
+  justify-content: center;
+}
+
+.modal-footer a{
+  color: #673ab7;   
+}
+
+
+.row .col-2 div{
+  width: 42px;
+  height: 42px;
+}
+
+.row:nth-child(1) .col-2 div{
+  background-color: rgb(103 58 183 / 33%);
+  color: #673ab7;
+}
+
+.col-2 div i{
+  line-height: 45px;
+  text-align: center;
+}
+
+.row:nth-of-type(2) .col-2 div{
+  background-color: #ffc8da;
+  color: #f02769;
+}
+
+
+
+.row:nth-of-type(3) .col-2 div{
+  background-color: #ccf7ff;
+  color: #01d7ff
+}
+
+
+
+.row:nth-of-type(4) .col-2 div{
+  color: #008b8b;
+  background-color: #cce8e8;
+}
+
+
+.row:nth-of-type(5) .col-2 div{
+  color: #ffc107;
+  background-color: #fff3d1;
+}
+
+/*style for modal end*/
+
+
+input[value="Search Products..."] {
+    color: #aaa;
+}
+/*navarbar with brand name end*/
+
+/*sidebar section start*/
+  
+ body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  background: #1a1a1a;
+  overflow-x: hidden;
+  -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+  padding-top: 60px;
+    
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 25px;
+  cursor: pointer;
+  color: white;
+  border: none;
+  background-color: transparent;
+}
+
+
+
+#sideButton {
+  transition: margin-left .5s;
+}
+
+.overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(250,250,250,.8);
+    z-index: 1;
+}
+
+/*sidebar section end*/
+
+/*second nav start*/
+
+nav#secondNav{
+  background-color: #2f4f4f;
+  position: relative;
+  margin-top: 90px;
+
+}
+
+nav#secondNav div ul {
+  color: #fff;
+  padding-left: 1.5rem;
+  flex-wrap: wrap;
+}
+
+nav#secondNav div ul li{
+  padding-left: 1.5rem;
+}
+  
+
+/*second nav end*/
+
+
+/*carousal section start*/
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    padding: 0;
+    margin-right: 15px;
+    margin-left: 15px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 2px solid #000;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+
+/*carousal section end*/
+
+/*best seller section start*/
+
+.card img:hover{
+  transform: scale(0.9);
+  transition: 1s;
+}
+
+.card img{
+  height: 300px;
+}
+
+.card h4{
+  font-size: 2vw;
+}
+
+.card p{
+  font-size: 1.8vw;
+}
+/*best seller section end*/
+
+#clothes .card img{
+  height: auto !important;
+  background-size: cover;
+}
+
+/*footer section start*/
+
+footer{
+  background-color: #353839;
+}
+
+/*footer section end*/
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+@media screen and (min-width: 993px) {
+    .modal {
+      top: 40px;
+      left: 30%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+  .modal {
+      top: 40px;
+      left: 22%;
+    }
+}
+
+@media screen and (min-width: 757px) {
+    div.carousel-inner img{
+      height: 70vh;
+    } 
+
+}
+
+@media screen and (max-width: 756px) {
+  a.navbar-brand img{
+    width:50px;
+    height: auto;
+  }
+
+  .navbar-brand{
+    font-size: 1.2rem;
+  }
+
+  nav .btn {
+    font-size: 0.8rem;
+  }
+
+  nav .form-control {
+    font-size: 0.8rem;
+  }
+
+  .dropdown-toggle::after {
+      margin-left: 1.255em;
+  }
+
+  .badge {
+      padding: .12em .40em;
+      font-size: 0.65em;
+  }
+
+
+  nav span i{
+    font-size: 1.1em;
+  }
+
+  span.badge{
+    transform: translateX(-10px) translateY(-4px);
+  }
+
+  nav#secondNav div ul {
+    padding-left:0.9rem;
+  }
+
+  nav#secondNav div ul li{
+    padding-left: 0.9rem;
+  }
+
+  .modal {
+    top: 40px;
+    left: 18%;
+  }
+
+  .card img{
+    height: 250px;
+  }
+} 
+
+@media screen and (max-width: 576px) {
+  a.navbar-brand img{
+    width:30px;
+  }
+
+  nav  .btn {
+    font-size: 0.6rem;
+    }
+
+  nav .form-control {
+    font-size: 0.6rem;
+  }
+
+  .navbar-brand {
+    font-size: 0.8rem;
+  }  
+
+  nav#secondNav div ul {
+    padding-left:0.9rem;
+  }
+
+  nav#secondNav div ul li{
+    padding-left: 0.9rem;
+    font-size: 0.8em;    
+  }
+
+  footer p{
+    font-size: 0.8em;
+  }
+
+  .modal {
+    top: 40px;
+    left: 110px
+  }
+
+  .card img{
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  nav .btn {
+    font-size: 0.4rem;
+    padding: 0rem .20rem;
+    }
+
+  .navbar-brand {
+    font-size: 0.8rem;
+  }
+
+  .badge {
+      padding: .10em .35em;
+      font-size: 0.55em;
+  }
+
+  nav .form-control {
+    font-size: 0.4rem;
+  }
+
+  nav span i{
+    font-size: 0.7em;
+  }
+
+  span.badge{
+    transform: translateX(-5px) translateY(1px);
+  }
+
+  .dropdown-toggle::after {
+      margin-left: 1em;
+  }
+
+  .openbtn {
+    font-size: 15px;
+  }  
+
+  nav#secondNav div ul {
+    padding-left: 0.8rem;
+  }
+
+  nav#secondNav div ul li{
+    padding-left: 0.8rem;
+    font-size: 0.6em;
+  }
+
+  footer p{
+    font-size: 0.6em;
+  }
+
+  .modal {
+    top: 40px;
+    left: 40px
+  }  
+  .modal p{
+    font-size: 9px;
+  }
+
+  .modal-dialog {
+    margin: 0rem;
+  }
+
+  .modal-content {
+      width: 78%;
+  }
+  .row .col-2 div{
+    width: 25px;
+    height: 25px;
+  }
+
+  .col-2 div i{
+    line-height: 25px;
+  }
+
+  .card img{
+    height: 200px;
+  }
+}
+
+/*sidebar section end*/
+
+
+/**************************/
+/**************************/
+
+
+
+/**************************/
+/*style for project detail page start*/
+/**************************/
+
+
+.fa-star{
+  color: #ffc40c;
+}
+
+.user{
+  width: 60px;
+  height: 60px;
+  background-color: #0c9;
+  border-radius: 50%;
+  text-align: center;
+}
+
+div.user i{
+  margin-top: 18px;
+}
+
+
+/**************************/
+/*style for project detail page end*/
+/**************************/

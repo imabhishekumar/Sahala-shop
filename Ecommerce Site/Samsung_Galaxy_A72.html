@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Samsung Galaxy A72</title>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Atomic+Age&family=Dancing+Script&family=Megrim&family=Tangerine&family=Turret+Road:wght@200&family=Vibur&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script defer src="js/bootstrap.min.js"></script>
+    <script defer src="js/jquery.min.js"></script>
+    <script defer src="js/script.js"></script>
+     <!-- Popper.JS -->
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!-- section for navbar start -->
+    <section>
+        <nav class="bg-info pb-2 pt-2 bg-white fixed-top" id="topNav">
+          <div class="container d-flex align-items-center justify-content-between">
+            <a href="index.html" class="navbar-brand fw-bold "><img src="images/logo/logo.png"> SAHALA</a>
+            <form class="w-100">
+                <div class="input-group bg-dark rounded-pill">
+                    <button class="btn text-white dropdown-toggle ms-2" type="button" data-bs-toggle="dropdown" aria-expended="false">All Products</button>
+                    <ul class="dropdown-menu">
+                        <li><a href="index.html" class="dropdown-item">All Products</a></li>
+                        <li><a href="index.html" class="dropdown-item">Clothes</a></li>
+                        <li><a href="laptops.html" class="dropdown-item">Laptop</a></li>
+                        <li><a href="mobiles.html" class="dropdown-item">Mobile</a></li>
+                        
+                    </ul>
+                
+                    <input type="text" class="form-control" aria-describedeby="search" value="Search Products..." onblur="if(this.value==''){this.value='Search Products...'}" onfocus="if(this.value=='Search Products...'){this.value=''}">
+                    <button class="btn" id="search"><i class="fas fa-search text-white"></i></button>
+                </div>
+            </form>
+            <span class="d-flex modal1">
+                <div class="position-relative">
+                    <button data-bs-toggle="modal" data-bs-target="#notification" class="ms-4">
+                        <i class="far fa-bell text-dark" ></i>                
+                    </button>
+                    <span class="badge rounded-circle position-absolute">5</span>
+
+                    <div class="container">
+                        <div class="modal fade" id="notification" tabindex="-1" aria-labelledby="notificationLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-head text-center">
+                            <h5 class="modal-title text-white" id="exampleModalLabel">6 New </h5>
+                            <p class="text-white" style="margin-bottom: 0px;">Application Notification</p>
+                          </div>
+                          <div class="modal-body">
+                            <div class="row">
+                                <div class="col-2">
+                                    <div class="rounded-circle text-center">
+                                        <i class="fas fa-mobile"></i>
+                                    </div>
+                                </div>
+                                <div class="col-7">
+                                    <p class="text-uppercase">New Order</p>
+                                    <p>You have recieved new Orders</p>
+                                </div>
+                                <div class="col-3">
+                                    <p class="text-muted">4 Sec ago</p>
+                                </div>
+                            </div>
+
+                            <hr class="text-muted">
+                            
+                            <div class="row">
+                                <div class="col-2">
+                                    <div class="rounded-circle text-center">
+                                        <i class="far fa-user "></i>
+                                    </div>
+                                </div>
+                                <div class="col-7">
+                                    <p class="text-uppercase">New Customer</p>
+                                    <p>5 new user registered</p>
+                                </div>
+                                <div class="col-3">
+                                    <p class="text-muted">14 Sec ago</p>
+                                </div>
+                            </div>
+                            
+                            <hr class="text-muted">
+
+                            <div class="row">
+                                <div class="col-2">
+                                    <div class="rounded-circle text-center">
+                                        <i class="fas fa-id-card "></i>
+                                    </div>
+                                </div>
+                                <div class="col-7">
+                                    <p class="text-uppercase">Enjoy Premium</p>
+                                    <p>Buy Our premium products</p>
+                                </div>
+                                <div class="col-3">
+                                    <p class="text-muted">19 min ago</p>
+                                </div>
+                            </div>
+
+                            <hr class="text-muted">
+
+                            <div class="row">
+                                <div class="col-2">
+                                    <div class="rounded-circle text-center">
+                                        <i class="fas fa-shopping-cart "></i>
+                                    </div>
+                                </div>
+                                <div class="col-7">
+                                    <p class="text-uppercase">Products in cart</p>
+                                    <p>Visit your cart</p>
+                                </div>
+                                <div class="col-3">
+                                    <p class="text-muted">28 min ago</p>
+                                </div>
+                            </div>
+
+                            <hr class="text-muted">
+
+                            <div class="row">
+                                <div class="col-2">
+                                    <div class="rounded-circle text-center">
+                                        <i class="far fa-plus-square "></i>
+                                    </div>
+                                </div>
+                                <div class="col-7">
+                                    <p class="text-uppercase">New Product Approved</p>
+                                    <p>New product has approved</p>
+                                </div>
+                                <div class="col-3">
+                                    <p class="text-muted">28 min ago</p>
+                                </div>
+                            </div>
+
+                          </div>
+                          <div class="modal-footer">
+                            <a href="#" class="text-decoration-none">View All Notifications </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <!-- <a href="#"><i class="fas fa-shopping-cart ms-4 text-dark"></i></a> -->
+
+                    <button data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <i class="fas fa-shopping-cart ms-4 text-dark"></i>            
+                    </button>
+
+                    <span class="badge rounded-circle position-absolute">3</span>
+
+                </div>
+            </span>
+          </div>
+        </nav>
+        <nav class="navbar scrolling-navbar " id="secondNav">
+            <div class="container">
+                <div id="sideButton" class="d-flex pt-3">
+                    <ul class="d-flex " style="list-style: none">
+                        <li><a href="index.html" class="text-decoration-none text-white">All</a></li>
+                        <li><a href="index.html" class="text-decoration-none text-white">Best Sellers</a></li>
+                        <li><a href="index.html" class="text-decoration-none text-white">Clothes</a></li>
+                        <li><a href="laptops.html" class="text-decoration-none text-white">Laptop</a></li>
+                        <li><a href="mobiles.html" class="text-decoration-none text-white">Mobiles</a></li>
+                    </ul>
+                    <ul class="d-flex list-unstyled">
+                        <li><a href="#" class="text-decoration-none bg-info p-2 ps-3 pe-3 rounded text-white">LogIn</a></li>
+                    </ul>
+                </div>    
+            </div>
+        </nav>
+    </section>
+
+<!-- section for navbar end -->
+
+<!-- product description section start -->
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mt-5 text-center">
+                    <img src="images/Samsung_Galaxy_A72.jpg" class="img-fluid">
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mt-5">
+                    <h3> Samsung Galaxy A72 (Violet, 8GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers   </h3>
+
+                    <ul class="list-unstyled d-flex">
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="far fa-star"></i></li>
+                        <li><i class="far fa-star"></i></li>
+
+                        <li class="ps-2 text-success">(3)</li>
+                        <li class="ps-2 text-success"><span>9 ratings</span></li>
+                    </ul>
+
+                    <h5 class="d-flex">Price: <span class="text-danger ps-2"> &#8377; 34,990</span><p class="text-muted ps-2">Inclusive of all taxes</p></h5>
+
+                    <h6>Fastest and free delivery</h6>
+                    <div class="row text-center pt-4 pb-4">
+                        <div class="col-3">
+                            <i class="fas fa-undo text-danger p-2 fs-4"></i>
+                            <p class="text-success">7 Days Replacement</p>
+                        </div>
+                        <div class="col-3">
+                            <i class="fas fa-shield-alt text-danger p-2 fs-4"></i>
+                            <p class="text-success">1 Year Warranty</p>
+                        </div>
+                    </div>
+
+                    <ul class="text-muted">
+                        <h5>About the product :- </h5>
+                        <li>
+                            64MP+12MP+8MP+5MP Quad camera setup-64MP (F1.8) OIS AF (F 1.8) main camera + 12MP (F2.2) Ultra wide camera , +8MP (F2.4) AF Tele 3X + 5MP (2.4) Macro Camera| 32MP (F2.2) front camera    
+                        </li>
+                        <br>
+                        <li>
+                            16.95 centimeters (6.7-inch) FHD+ Super AMOLED Plus- infinity O display,90hz refresh rate, FHD+ resolution with 1080 x 2400 (FHD+) pixls , 407 PPI with 16M colours   
+                        </li>
+                        <br>
+                        <li>
+                            Memory, Storage & SIM: 8GB RAM | 128GB internal memory expandable up to 1TB| Dual SIM (nano+nano) dual-standby (4G+4G)    
+                        </li>
+                        <br>
+                        <li>
+                            Android 11, v11.0 operating system, One UI 3.1 with SDM720G (2 x 2.3GHz + 6 x 1.8GHz) octa core processor     
+                        </li>
+                        <br>
+                        <li>
+                           5000mAH lithium-ion battery,with 25w fast charging 1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box accessories including batteries from the date of purchase   
+                        </li>
+                        
+                    </ul>
+
+                    <a href="#" class="btn btn-outline-success ms-5">Buy Now</a>
+
+                    <a href="#" class="btn btn-outline-danger ms-4">Add To Cart</a>
+
+
+                </div>
+            </div>
+        </div>        
+    </section>
+
+<!-- product description section end -->
+
+<hr class="text-muted">
+
+<!-- related product section start -->
+    
+    <section>
+        <div class="container">
+            <h4>Similar Products</h4>
+            <div class="row text-center">
+                <div class="col-4 mt-5 mb-5">
+                        <div class="card">
+                            <img src="images/OPPOF19.jpg">
+                            <h4 class="mt-3">OPPO F19 Pro</h4>
+                            <p class="text-info">&#8377 25,990</p>
+                        </div>
+                    </div>
+                    <div class="col-4 mt-5">
+                        <div class="card">
+                            <img src="images/SamsungGalaxy M02.jpg">
+                            <h4 class="mt-3">Samsung Galaxy M02</h4>
+                            <p class="text-info">&#8377 8,999</p>
+                        </div>
+                    </div>
+                    <div class="col-4 mt-5">
+                        <div class="card">
+                            <img src="images/redmi9A.jpg">
+                            <h4 class="mt-3">Redmi 9A</h4>
+                            <p class="text-info">&#8377 6,799</p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+<!-- realted product section end -->
+
+<hr class="text-muted">
+
+<!-- ask section start -->
+
+<section class="bg-dark text-white pb-5 pt-5">
+    <div class="container mt-5 mb-5">
+        <h4>Ask a Question</h4>
+
+        <div class="row">
+            <div class="position-relative col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <input type="text" class="form-control text-muted" aria-describedeby="search" value="Ask your Query" onblur="if(this.value==''){this.value='Ask your Query'}" onfocus="if(this.value=='Ask your Query'){this.value=''}">
+                <button class="btn position-absolute" style="top: 0px; right: 10px;"><i class="fas fa-search text-dark"></i></button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ask section end -->
+
+<hr class="text-muted">
+
+<!-- rating section start -->
+
+<section>
+    <div class="container mt-4 mb-5">
+        <h4>Top Reviews</h4>
+        
+        <div>
+            <div class="mt-5 user">
+                <i class="fas fa-user text-white fs-4"></i>
+            </div> 
+            <ul class="mt-4 list-unstyled">
+                <li>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </li>
+            </ul>
+
+            <p class="text-muted">28 Feb, 2021</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p> 
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+
+        <div>
+            <div class="mt-5 user">
+                <i class="fas fa-user text-white fs-4"></i>
+            </div> 
+            <ul class="mt-4 list-unstyled">
+                <li>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </li>
+            </ul>
+
+            <p class="text-muted">11 Nov, 2020</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p> 
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>  
+    </div>
+</section>
+
+<!-- rating section end -->
+
+<!-- footer start -->
+    <section>
+        <footer class="p-5">
+            <div class="row text-white">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                    <a href="index.html" class="navbar-brand fw-bold text-white"><img src="images/logo/logo.png"> SAHALA</a>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation Lorem ipsum dolor sit amet,</p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                    <h6 class="fw-bold">Know About Us</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none text-muted">About Us</a></li>
+                        <li><a href="#" class="text-decoration-none text-muted">Privacy Policy</a></li>
+                        <li><a href="#" class="text-decoration-none text-muted">Terms And conditions</a></li>
+
+                    </ul>
+                </div>
+                
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                    <h6 class="fw-bold">Help</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none text-muted">Payments</a></li>
+                        <li><a href="#" class="text-decoration-none text-muted">Cancellation & Return</a></li>
+                        <li><a href="#" class="text-decoration-none text-muted">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                    <h6 class="fw-bold">Connect With Us</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none text-muted">Facebook</a></li>
+                        <li><a href="#" class="text-decoration-none text-muted">Twitter</a></li>
+                        <li><a href="#" class="text-decoration-none text-muted">Github</a></li>
+                        <li><a href="#" class="text-decoration-none text-muted">LinkedIn</a></li>
+                        <li><a href="tel:123-456-7890" class="text-decoration-none text-muted"><i class="fas fa-mobile-alt text-white"></i> &nbsp; 123-456-7890</a></li>
+                        <li><a href="mailto:abhi9062k@gmail.com" class="text-decoration-none text-muted"><i class="fas fa-envelope text-white"></i>&nbsp; ABHI9062K@GMAIL.COM</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="text-white">
+            <div class="text-center text-white"><p>Copyright &copy; 2021 All Right Reseved at <span class="text-success">SAHALA-SHOP</span></p></div>
+        </footer>
+    </section>
+<!-- footer end -->
+
+</body>
+</html>

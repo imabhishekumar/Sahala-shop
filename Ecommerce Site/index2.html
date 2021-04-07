@@ -1,0 +1,205 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Sahala-shop</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script defer src="js/bootstrap.min.js"></script>
+    <script defer src="js/jquery.min.js"></script>
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+	<section>
+		<div id="mySidenav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="#">About</a>
+			<a href="#">Services</a>
+			<a href="#">Client</a>
+			<a href="#">Contact</a>
+		</div>
+
+		<span onclick="openNav()">&#9776;</span>
+		<div id="main">
+			
+		</div>
+	</section>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sahala-shop</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script defer src="js/bootstrap.min.js"></script>
+    <script defer src="js/jquery.min.js"></script>
+    <script defer src="js/script.js"></script>
+     <!-- Popper.JS -->
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+   <style type="text/css">
+   	*, html{
+	box-sizing: border-box;
+}
+
+body{
+	overflow-x: hidden;
+  outline: none;
+  position: relative;
+}
+
+
+@font-face {
+  font-family: Rajdhani-Medium;
+  src: url(../font/Rajdhani/Rajdhani-Medium.ttf);
+}
+
+@font-face {
+  font-family: YatraOne-Regular;
+  src: url(../font/Yatra_One/YatraOne-Regular.ttf);
+}
+
+
+
+/**************************/
+/**************************/
+
+
+/*sidebar section start*/
+  
+ body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  background: #1a1a1a;
+  overflow-x: hidden;
+  -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+  padding-top: 60px;
+    
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#sideButton {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+.overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(250,250,250,.8);
+    z-index: 1;
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+
+/*sidebar section end*/
+
+
+/**************************/
+/**************************/
+
+
+   </style>
+</head>
+<body>
+	<section>
+		<nav class="navbar bg-dark navbar-dark scrolling-navbar ">
+          <div class="container">
+          	<div id="sideButton">
+			  <button class="openbtn bg-dark" onclick="openNav()">☰ </button> 
+			  <a class="navbar-brand text-white position-fixed" href="#" target="_blank"><strong>Wonder</strong></a>
+			</div> 
+			<div>  
+	        </div>  
+          </div>
+          <div class="container">
+            <div class="collapse navbar-collapse nav-right" id="navbarSupportedContent">
+            </div>
+         </div>
+        </nav>
+
+        <div class="overlay"></div>
+
+
+        <div id="mySidebar" class="sidebar">
+		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+		  <a href="#">About</a>
+		  <a href="#">Services</a>
+		  <a href="#">Clients</a>
+		  <a href="#">Contact</a>
+		</div>
+
+	</section>
+</body>
+</html>
+
+
+
+
+
+
+
+
